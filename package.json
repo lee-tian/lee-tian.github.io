@@ -14,7 +14,8 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master",
+    "bb": "gatsby clean && gatsby develop"
   },
   "dependencies": {
     "@lekoarts/gatsby-theme-emilia": "^1.3.4",
